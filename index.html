@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC & TMB</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav">
+        <a class="logo" href="/">Calculadora de IMC & TMB</a>
+        <ul class="nav-list">
+            <li><a href="#sobre">Entenda um pouco sobre IMC</a></li>
+            <li><a href="E:\2° Ano\PW II\Site IMC\Index\indexTMB.html">Calcule a TMB</a></li>
+        </ul>
+    </nav>
+</header>
+     
+      <div class="box">
+        <div class="py-3">
+          <div class="box1">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div>
+                  <h2 class="py-3">Calcule Seu IMC</h2>
+                </div>
+  
+                <div class="py-3">
+                  <label for="Nome">Nome</label>
+                  <input type="text" id="nome" class="form-control" placeholder="Digite seu Nome">
+                </div>
+      
+                <div class="py-3">
+                  <label for="Sobreome">Sobreome</label>
+                  <input type="text" id="sobrenome" class="form-control" placeholder="Digite seu Sobreome">
+                </div>
+        
+                <div class="py-3">
+                  <label for="Categoria">Categoria</label>
+                </div>
+                <select id="categoria" class="form-control">
+                  <option value="Adulto">Adulto</option>
+                  <option value="Infantil">Infantil</option> 
+  
+                </select>
+  
+                <div class="row">
+                  <div class="col-6">
+                    <div class="py-3">
+                      <label for="peso">Peso</label>
+                      <input type="number" id="peso" class="form-control" placeholder="Digite seu peso">
+                    </div>
+                    </div>
+                      
+                    <div class="col-6">
+                      <div class="py-3">
+                    <label for="altura">Altura</label>
+                    <input type="number" id="altura" class="form-control" placeholder="Digite seu altura">
+                  </div>
+                </div>
+                <div class="py-3">
+                  <button id="btn" class="btn btn-blue">
+                    Cadastrar
+                  </button>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6">
+                <div class="py-3">
+                    <h2>Dados cadastrados:</h2>
+                    <div class="py-4"></div>
+                    <table class="table table-responsive">
+                      <tr>
+                          <td>Nome</td>
+                          <td>Sobrenome</td>
+                          <td>Categoria</td>
+                          <td>IMC</td>
+                          <td>Classificação</td>
+                      </tr>
+                      <tbody id="resultado">
+                       
+                      </tbody>
+                  </table>
+  
+                  <div ></div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="sobre">
+
+      <div class="containerpai2"> 
+        <div class="containersubfilho0">
+          <div class="imgUm">
+          <div class="imgcontainer">
+            <img src="https://abeso.org.br/wp-content/uploads/2019/12/imc_01.png.webp" alt="">
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-md-12">
+          <div class="containertexto">
+            <h1 class="h1">Obesidade Grau III</h1>
+            <div class="py-2">
+              <h2 class="h2">Aqui o sinal é vermelho, há uma forte indicação de que doenças graves possam já estar presentes.</h2>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="containersubfilho1">
+          <div class="imgUm">
+          <div class="imgcontainer">
+            <img src="https://abeso.org.br/wp-content/uploads/2019/12/imc_02.png.webp" alt="">
+            </div>
+          </div>
+
+     
+          <div class="col-md-6 col-md-12">
+            <div class="containertexto">
+              <h1 class="h1">Obesidade Grau II</h1>
+              <div class="py-2">
+                <h2 class="h2">Se você possui o segundo grau de obesidade, faça exercícios, mesmo que os exames aparentem normalidade, é essencial começar a cuidar de si. 
+                  </h2>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="containersubfilho1">
+          <div class="imgUm">
+          <div class="imgcontainer">
+            <img src="https://abeso.org.br/wp-content/uploads/2019/12/imc_03.png.webp" alt="">
+            </div>
+          </div>
+
+     
+          <div class="col-md-6 col-md-12">
+            <div class="containertexto">
+              <h1 class="h1">Obesidade Grau I</h1>
+              <div class="py-2">
+                <h2 class="h2">Se você possui o primeiro grau de obesidade, é hora de priorizar sua saúde, mesmo que seus exames estejam dentro da normalidade. </h2>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="containersubfilho1">
+          <div class="imgUm">
+          <div class="imgcontainer">
+            <img src="https://abeso.org.br/wp-content/uploads/2019/12/imc_04.png.webp" alt="">
+            </div>
+          </div>
+
+     
+          <div class="col-md-6 col-md-12">
+            <div class="containertexto">
+              <h1 class="h1">Sobrepeso</h1>
+              <div class="py-2">
+                <h2 class="h2">
+                  Se você se encontra com sobrepeso, você numa fase de pré-obesidade, e muitas pessoas nessa categoria já podem ter doenças associadas, como diabetes e hipertensão. 
+                </h2>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="containersubfilho1">
+          <div class="imgUm">
+          <div class="imgcontainer">
+            <img src="https://abeso.org.br/wp-content/uploads/2019/12/imc_05.png.webp" alt="">
+            </div>
+          </div>
+
+     
+          <div class="col-md-6 col-md-12">
+            <div class="containertexto">
+              <h1 class="h1">Normal</h1>
+              <div class="py-2">
+                <h2 class="h2">
+                  Caso esteja com o peso normal, ótimo! 
+                  Para manter isso, o melhor caminho é manter um estilo de vida ativo e uma alimentação equilibrada.</h2>
+              </div> 
+            </div>
+          </div>
+
+        </div>
+        
+        <div class="containersubfilho2">
+          <div class="imgUm">
+          <div class="imgcontainer">
+            <img src="https://abeso.org.br/wp-content/uploads/2019/12/imc_06.png.webp" alt="">
+            </div>
+          </div>
+
+     
+          <div class="col-md-6 col-md-12">
+            <div class="containertexto">
+              <h1 class="h1">Abaixo do Normal</h1>
+              <div class="py-2">
+                <h2 class="h2">
+                  Procure um médico. Algumas pessoas têm um peso baixo devido às características naturais do seu corpo, 
+                  Algumas pessoas têm um peso baixo devido às características naturais do seu corpo,
+                </h2>
+              </div>
+            </div>
+          </div>
+
+    </div>
+      
+  </section>
+    
+  
+  
+
+      <footer class="footer">
+        Todos os direitos reservados @CalculadoradeIMC&TMB
+      </footer>
+    
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/app.js"></script>
+</body>
+</html>
