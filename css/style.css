@@ -213,12 +213,10 @@ a {
     justify-content: left;
 }
 
-    .imgUm{
-        width: 80%;    
+    .imgUm{    
         margin-left: 10%;
         margin-top: 10%;
         margin-right: 10%;
-        height: 45%;  
         float: left;
         background-size: cover;
         background-position: center center;
@@ -232,14 +230,13 @@ a {
         background-repeat: no-repeat;
         position: relative;
         background-image: url(" ");
-        width: 100%;
-        height: 100%;
+        
 
     }
 
 .footer{
     margin-top: 15% ;
-    position: relative;
+    position: fixed;
     background-color: #020479;
     color: white;        
     text-align: center;
